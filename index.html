@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOMEWORK</title>
+<style>
+
+
+#id2{
+    background: yellow;
+    
+}
+ 
+body{
+     background: yellow;
+    
+     
+}
+
+.textField {
+    box-shadow: inset 0 1px 5px blue;
+    border: 1px solid #ccc;
+    color: black;
+    
+
+}
+.btn{
+    background: black;
+    color: aliceblue;
+    margin-bottom: 1em;
+    position: absolute;
+    left: 115px;
+    width:100px;
+    height:35px
+  
+}
+.btn1:hover{
+    background: orange;
+
+}
+
+
+</style>
+
+
+
+</head>
+<body >
+    
+    <div  >
+            <h1 align="center"> THE WORLD of FRUITS </h1>
+    </div>
+
+<div id="id2" align="center">
+    <h2> Fruit Survey</h2>
+
+</div>
+
+
+<form  name="myform" id="myform" action="app.php" method="post" >        <!-- Створюємо форму в якій будуть розташовані таблиці 1 таблиця з імям адресою та емейлом  -->
+                    <table >
+                <tr> 
+                 <th align="right" width="100">Name:</th>
+                 <td><input type="text" name="mytxt" id="mytxt1" value="" placeholder="Name"  autofocus="autofocus" title="Name" autocomplete="off" class="textField" required></td>
+                </tr>
+                <tr> 
+                 <th align="right" width="100">Adress:</th>
+                 <td><input type="text" name="mytxt" id="mytxt2" value="" placeholder="Address" title="Address" autocomplete="off" class="textField" required></td>
+                </tr>
+                <tr> 
+                 <th align="right" >Email:</th>
+                 <td><input type="email" name="email" id="email" value="" placeholder="Email" title="Email" autocomplete="on"  maxLength="64" required 
+                    placeholder="username@smth.com" pattern=".+@beststartupever.com" class="textField" required></td>
+                </tr>
+                <tr></tr><tr></tr>
+                <tr></tr>
+                <tr></tr>
+               <tr></tr>
+               <tr></tr>
+               <br><br>
+             
+               <!-- Створюємо таблицю в якій будуть розташовані радіо кнопки  -->
+                   <tr>
+                       <th align="right" >How many pieces of fruit do you eat per day?</th>
+                       <td><input type="radio" name="gender" value="male"> 0</td>
+                  </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="radio" name="gender" value="male" > 1</td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td><input type="radio" name="gender" value="male" > 2</td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                     <td><input type="radio" name="gender" value="male"> 3</td>
+                </tr>
+                               
+              <tr></tr>
+              <tr></tr>
+              <tr></tr>
+            <tr></tr>
+                 
+                        <!-- Створюємо таблицю в якій будуть розташований список з фруктами  -->
+                    
+                   <tr>
+                       <th align="right"> My favorite fruit</th>
+                       <td>
+                       <select name="" id="fruit-select" size="4">
+
+                       <option disabled>Choose a fruit</option>
+                       <option value="apple">Apple</option>
+                       <option value="banana">Banana</option>
+                       <option value="plum">Plum</option>
+                       <option value="watermelon">Watermelon</option>
+                       </td>
+                       </select>
+                    </tr>
+
+                </table>
+
+<br><br>
+         <table>
+                <tr>
+                        <th align="right">Would you like <br>brochure?</th>
+                        <td><input type="checkbox" id="scales" name="scales"></td>
+                    </tr>
+
+         </table>
+
+<br><br>
+
+         <input type="submit" onclick="" value="Submit" class="btn btn1" size="100%" >
+</body>
+</html>
