@@ -1,0 +1,11 @@
+.colortext {
+    color: white; /* колір тексту */
+    font-size: 150%;/* Збільшуємо шрифт */
+  }
+  .colortext1 {
+    color: red; /* колір тексту */
+    font-size: 150%; /* Збільшуємо шрифт */
+  }
+  video {
+    width: 1000px; 
+}
